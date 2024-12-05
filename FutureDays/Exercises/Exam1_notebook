@@ -1,0 +1,285 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "determined-rough",
+   "metadata": {},
+   "source": [
+    "# Computational communication science 1 - exam resit"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "important-strength",
+   "metadata": {},
+   "source": [
+    "Student name:\n",
+    "\n",
+    "Student number:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "vocal-hometown",
+   "metadata": {},
+   "source": [
+    "In the resit of the final exam we will ask you to apply the skills learned inthe class. The exam will test your understanding of programming languages for communication science, your abilities to apply Python to solve programming challenges in the communication science context, and your understanding of basic programming solutions in Python.\n",
+    "\n",
+    "* You are allowed to use your study materials (e.g., slides, literature, notebooks, solutions to weekly challenges) during the assignment. You are **not** allowed to use external sources.\n",
+    "* It is strictly forbidden to communicate with other students during the examination.\n",
+    "* When you are finished, double-check whether you answered all questions before uploading the assignment.\n",
+    "* Carefully read the instructions and questions in this notebook!\n",
+    "\n",
+    "General instructions for answering the questions. Please read the instructions carefully:\n",
+    "\n",
+    "* This Exam for CCS1 consists of a Jupyter Notebook with 3 questions, including sub-questions (a, b, etc.). Read all the questions carefully. Make sure you save the notebook locally before starting to answer the questions. Rename this file according to the following structure: <br>LastName_FirstName_StudentID_Coursename\n",
+    "* Fill in your name and student number in the indicated space.\n",
+    "* To answer the exam questions, write your answers in this notebook where indicated. The word count for the reflection question is a guideline for how lengthy we expect the answer to be. Take this advice seriously (writing a lot more may result in insufficient time to finish the exam). Remaining below or going over the word count will by itself not lead to a deduction of points.\n",
+    "* Answer all questions and check upon completion if you really addressed all (sub-)questions.\n",
+    "* Use correct and complete sentences. Poorly or unclearly formulated answers will not be graded.\n",
+    "* Make sure to answer all questions in your own words.\n",
+    "* Do not provide any irrelevant information. If you provide more answers than instructed, only your first answer will be graded. If your correct answer also includes incorrect or irrelevant elements, these will lead to deduction of points.\n",
+    "* You can obtain a maximum of 100 points. The points you can obtain for each question are provided at the respective question.\n",
+    "* Re-reading full articles or re-doing the challenges during the assignment will not be possible, due to time restrictions. We advise you to use the materials to look up essential coding details.\n",
+    "\n",
+    "Submission instructions:\n",
+    "\n",
+    "* Please upload the html version of the notebook on Canvas. \n",
+    "* To do so, when the assignment is fully finished (and all the code executed), in Jupyter Lab, select File --> Export Notebook As --> Export Notebook to HTML. An html file will be generated (and probably downloaded to your Downloads folder). Upload this html file to Canvas. This file will be also used for the plagiarism check.\n",
+    "* Make sure that the html file is named according to the following structure: \n",
+    "LastName_FirstName_StudentID_Coursename.html\n",
+    "* If you cannot generate an HTML version from your Notebook (if the option disappeared), upload a PDF instead to Canvas. Please tell your lecturer about it.\n",
+    "\n",
+    "The exam consists of three sections (giving you max 100 points):\n",
+    "* Reflection (20% of exam grade): in a short reflection, we ask you to think about the use of programming languages for computational communication science.\n",
+    "* Programming 1 (40% of exam grade): in this programming task, we ask you to filter a dictionary and write a new dataset.\n",
+    "* Programming 2 (40% of exam grade): in this programming task, we ask you to answer a research question through analysing datasets provided by us.\n",
+    "\n",
+    "Make sure to have a look at the importance of the different sections for your final grade to determine how much time you should give to it. \n",
+    "\n",
+    "Good luck!\n",
+    "<br>\n",
+    "<br>\n",
+    "\n",
+    "## Reflection *(20 points)*\n",
+    "\n",
+    "During the course, you have read multiple articles that discuss the opportunities and challenges that different computational research approaches offer for communication science research. Please **select one of the research approaches discussed in class (observational research, theoretical research, experimental research) and discuss**: \n",
+    "\n",
+    "1. one **opportunity** introduced in the class and describe how computational methods and big data have the potential to enhance this research approach. Building on the cases discussed in class, provide at least **one concrete example** of how big data or computational methods can improve the communication science field in this context. <br>*Hint: thinking of examples consider theories that can be revised, different types of validity, research implications or research practices.*<br>Word count: max. 200 words\n",
+    "\n",
+    "**OR**\n",
+    "\n",
+    "2. one **challenge** introduced in the class and describe how computational methods and big data can become pitfalls for this research approach. Building on the cases discussed in class, provide at least **one concrete example** of how big data or computational methods can pose challenges to the communication science field in this context.<br>*Hint: thinking of examples consider theoretical challenges, data quality, representativeness, validity, reliability or ethical issues.*<br>Word count: max. 200 words"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "portable-conference",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "metric-dispatch",
+   "metadata": {},
+   "source": [
+    "# Programming 1 *(30 points)*\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "heard-cancer",
+   "metadata": {},
+   "source": [
+    "The json file `resit1.json` contains a fictional dataset from a company's Customer Relationship Management system. The dataset contains three characteristics for each customer: \n",
+    "\n",
+    "* a unique ID for each customer\n",
+    "* the name of each customer\n",
+    "* year of registration\n",
+    "* customer type (np for non-preferential customers and p or preferential for preferential customers)\n",
+    "\n",
+    "### Programming \n",
+    "\n",
+    "Your tasks are to: \n",
+    "\n",
+    "* load the json file into a dictionary,\n",
+    "* filter the dictionary by *removing* everybody who **either** registered before 2017 **or** is not a preferential client,\n",
+    "* export the filtered data in a file format that only Python users can read.\n",
+    "\n",
+    "### Analysis plan (10 points)\n",
+    "Before you start writing the necessary code, write down what steps you will undertake and why.\n",
+    "\n",
+    "*Hint: There are different ways to solve this task. Excellent solutions should be based on self-written functions.* \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "30ea9264",
+   "metadata": {},
+   "source": [
+    "[your plan goes here]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "black-basket",
+   "metadata": {},
+   "source": [
+    "### Programming (20 points)\n",
+    "\n",
+    "Write the code to solve the tasks above. Include comments in Markdown or using # to explain your code.\n",
+    "\n",
+    "*Note: If your code does not work, try to debug it. If that does not work, leave it in to show us your line of thinking.*"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "vital-integral",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "surrounded-sculpture",
+   "metadata": {},
+   "source": [
+    "# Programming 2 *(50 points)*\n",
+    "\n",
+    "In the final part of the resit, you will work with a simulated dataset from a newspaper that is currently running an email campaign to increase income from subscriptions. The datasets will be used to analyse how much individuals who visit the website spend on subscriptions.\n",
+    "\n",
+    "### Datasets\n",
+    "You will find two files in the exam folder folder (starting with News):\n",
+    "* **News_subscribe.csv** (or News_subscribe.pkl for a pickle version). This file contains a list of subscription sign-ups on the website (only sessions during which the visitor subscribed are included). It contains:\n",
+    "    * `visit_id` - session ID of the sessions during which the subscription was purchased,\n",
+    "    * `subscription` - this variable indicates if one subscribed (variable takes value 1 if a visitor subscribed),\n",
+    "    * `subscription_amount` - how much one spent on the subscription.\n",
+    "* **News_sessions.csv** (or News_sessions.pkl for a pickle version). This file contains a list of all online sessions on the website (both sessions during which as user subscribed and did not subscribe). For each session, it contains:\n",
+    "    * `session_id` - ID of the session on the website, \n",
+    "    * `newsletter` - this variable indicates if the session started from the newsletter (variable takes value \"newsletter\" if the session started from a newsletter)\n",
+    "\n",
+    "\n",
+    "### Research question\n",
+    "\n",
+    "We ask you to answer the following research question:\n",
+    "\n",
+    "**Option 1** Looking at all visitors of the page, to what extent does the amount one spends on a subscription differ between visitors coming from a newsletter and visitors coming from other sources? \n",
+    "<br>*Tip: to assess the effectiveness of the email campaign you also need to take into account that some people did not buy a subscription when visiting the website.*\n",
+    "\n",
+    "For each task provided below, explain what you are doing: before each line of code, add a line in Markdown/`#comment` that outlines what is being done below and why.\n",
+    "\n",
+    "#### Task 1 (15 points)\n",
+    "\n",
+    "Identify the necessary variables. Load the datasets and initially explore them looking at 1) first few rows, 2) columns in the datasets, 3) data types, 4) missing values and 5) descriptives.  Write a short summary of the two datasets and your analysis plan.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "previous-military",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "representative-diversity",
+   "metadata": {},
+   "source": [
+    "#### Task 2 (15 points)\n",
+    "Clean and prepare the datasets:\n",
+    "   1. Merge the two datasets appropriately. Make sure that all conditions for merging are met and explain your reason for type of merge (left, right, inner or outer) as well as its consequences for the number of cases and missing values. <br>*Note: If you do not manage to merge the datasets, continue with one of the datasets to complete the remaining tasks (if possible). This will mean that you will not be able to complete the tasks fully, but you can still receive partial points.* \n",
+    "   2. Deal with missing data in the merged dataset. Provide a justification for your choices (e.g., why you drop them or fill them in with another value).\n",
+    "   3. Prepare necessary variables making sure they have appropriate operationalization and data type."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dynamic-while",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "functioning-carbon",
+   "metadata": {},
+   "source": [
+    "#### Task 3 (10 points)\n",
+    "\n",
+    "Visualize one of the variables relevant for your research question. Explain what type of visualization you chose and why. \n",
+    "\n",
+    "Interpret the plot."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "amber-recipe",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "appointed-convention",
+   "metadata": {},
+   "source": [
+    "#### Task 4 (10 points)\n",
+    "\n",
+    "Visualize the relation between variables relevant for your research question. Explain what type of visualization you chose and why.\n",
+    "\n",
+    "Interpret the plot."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "executive-movement",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "41043967",
+   "metadata": {},
+   "source": [
+    "#### Bonus task (10 points)\n",
+    "\n",
+    "Conduct the appropriate statistical test to answer the research question. Justify your test choice and interpret it.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "034168d4",
+   "metadata": {},
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
